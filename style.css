@@ -1,0 +1,125 @@
+
+        #all-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .head-base {
+            background-color: #007bff;
+            color: black;
+            text-align: end;
+            padding: 170px;
+            /*background-image: url("Collegeimage.jpg");*/
+            background-size: cover;
+            background-position: center;
+            background-size: 100%;
+        }
+
+        .head-text h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+            text-align: center;
+            background-color: #007bff;
+        }
+
+        .navbar {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ced4da;
+        }
+
+        .nav-link {
+            color: #007bff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .dropdown-menu {
+            background-color: #f8f9fa;
+            border: none;
+        }
+
+        .dropdown-item {
+            color: #007bff;
+        }
+
+        .jumbotron {
+            background-color: f8f9fa;
+            border: 10px;
+            text-align: center;
+            background-color: #30e4d2;
+        }
+
+        /* Add shortcut key to footer links */
+.footer-links a:before {
+  content: "["; /* open bracket */
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  padding: 0 5px;
+}
+
+.footer-links a:after {
+  content: "]"; /* close bracket */
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  padding: 0 5px;
+}
+
+/* Shortcut key for Students link */
+.footer-links .students-link:before {
+  content: "S"; /* shortcut key */
+}
+
+/* Shortcut key for Faculty link */
+.footer-links .faculty-link:before {
+  content: "F"; /* shortcut key */
+}
+
+/* Shortcut key for Employer link */
+.footer-links .employer-link:before {
+  content: "E"; /* shortcut key */
+}
+
+/* Shortcut key for Alumni link */
+.footer-links .alumni-link:before {
+  content: "A"; /* shortcut key */
+}
+
+/* Shortcut key for Parents link */
+.footer-links .parents-link:before {
+  content: "P"; /* shortcut key */
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  height: 200px;
+  animation: colorful 5s infinite;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: #ff0000;
+  }
+  20% {
+    background-color: #ff7f00;
+  }
+  40% {
+    background-color: #ffff00;
+  }
+  60% {
+    background-color: #00ff00;
+  }
+  80% {
+    background-color: #0000ff;
+  }
+  100% {
+    background-color: #4b0082;
+  }
+}
+   

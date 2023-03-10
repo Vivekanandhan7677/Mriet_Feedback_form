@@ -1,0 +1,33 @@
+DIGIT[0-9]
+LETTER[A-Z a-z]
+DELIM[\t\n] 
+WS{DELIM}+ID{(LETTER)[LETTER/DIGIT]}+INTEGER{DIGIT}+
+%%
+{WS}{printf("\n special characters\n");} 
+{ID}{printf("\n Identifiers\n");}
+{DIGIT}{printf("\n Intgers\n");}
+if{printf("\n Keywords\n");}
+else{printf("\n keywords\n");}
+">"{printf("\n Logical Operators\n");}
+"<"{printf("\n Logical Operators\n");}
+"<="{printf("\n Logical Operators\n");}
+"=>"{printf("\n Logical Operators\n");}
+"="{printf("\n Logical Operators\n");}
+"!="{printf("\n Logical Operators\n");}
+"&&"{printf("\n Relational \n");}
+"||"{printf("\n Relational Operatos\n");}
+"!"{printf("\n Relational Operatos\n");}
+"+"{printf("\n Arthmetic Operator\n");}
+"-"{printf("\n Arthmetic Operator\n");}
+"*"{printf("\n Arthmetic Operator\n");}
+"/"{printf("\n Arthmetic Operator\n");}
+"%"{printf("\n Arthmetic Operator\n");}
+%%
+main()
+{
+    yylex();
+}
+
+
+sudo apt-get update
+sudo apt-get install flex
